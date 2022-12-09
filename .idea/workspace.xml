@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29e99c27-f5f5-407a-b7b5-e62936b2e696" name="Changes" comment="" />
+    <list default="true" id="29e99c27-f5f5-407a-b7b5-e62936b2e696" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example2/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example2/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/pt/up/fe/ldts/example2/ShapeSpockTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/pt/up/fe/ldts/example2/ShapeSpockTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pt/up/fe/ldts/example2/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pt/up/fe/ldts/example2/ShapeTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +55,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/du/IdeaProjects/refactoring"
+    "last_opened_file_path": "/home/du/IdeaProjects/refactoring/src/main/java/pt/up/fe/ldts/example2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -61,7 +67,7 @@
       <recent name="pt.up.fe.ldts.example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.OrderTest">
+  <component name="RunManager" selected="Gradle.Tests in 'refactoring.test'">
     <configuration name="OrderSpockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,12 +110,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleOrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'refactoring.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example3.SimpleOrderTest&quot;" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'refactoring.test'" />
         <item itemvalue="Gradle.OrderTest" />
         <item itemvalue="Gradle.OrderSpockTest" />
         <item itemvalue="Gradle.refactoring [build]" />
         <item itemvalue="Gradle.refactoring [dependencies]" />
-        <item itemvalue="Gradle.SimpleOrderTest" />
       </list>
     </recent_temporary>
   </component>

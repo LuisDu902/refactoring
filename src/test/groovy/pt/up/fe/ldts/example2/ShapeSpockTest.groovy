@@ -7,64 +7,64 @@ class ShapeSpockTest extends Specification {
 
     def 'Get Area Circle'() {
         given:
-            def circle = new Shape(5, 5, 10)
+        def circle = new Circle(5, 5, 10)
 
         when:
-            def result = circle.getArea()
+        def result = circle.getArea()
 
         then:
-            result closeTo(314.16 , 0.01)
+        result closeTo(314.16 , 0.01)
     }
 
     def 'Get Area Rectangle'() {
         given:
-            def rectangle = new Shape(5, 5, 10, 20)
+        def rectangle = new Rectangle(5, 5, 10, 20)
 
         when:
-            def result = rectangle.getArea()
+        def result = rectangle.getArea()
 
         then:
-            200 == result
+        200 == result
     }
 
     def 'Get Perimeter Circle'() {
         given:
-            def circle = new Shape(5, 5, 10)
+        def circle = new Circle(5, 5, 10)
 
         when:
-            def result = circle.getPerimeter()
+        def result = circle.getPerimeter()
 
         then:
-            result closeTo(62.83, 0.01)
+        result closeTo(62.83, 0.01)
     }
 
     def 'Get Perimeter Rectangle'() {
         given:
-            def rectangle = new Shape(5, 5, 10, 20)
+        def rectangle = new Rectangle(5, 5, 10, 20)
 
         when:
-            def result = rectangle.getPerimeter()
+        def result = rectangle.getPerimeter()
 
         then:
-            60 == result
+        60 == result
     }
 
     def 'Draw Circle'() {
         given:
-            def graphics = Mock(GraphicFramework.class)
-            def circle = new Shape(5, 5, 10)
+        def graphics = Mock(GraphicFramework.class)
+        def circle = new Circle(5, 5, 10)
 
         when:
-            circle.draw(graphics)
+        circle.draw(graphics)
 
         then:
-            1 * graphics.drawCircle(5, 5, 10)
+        1 * graphics.drawCircle(5, 5, 10)
     }
 
     def 'Draw Rectangle'() {
         given:
         def graphics = Mock(GraphicFramework.class)
-        def rectangle = new Shape(5, 5, 10, 20);
+        def rectangle = new Rectangle(5, 5, 10, 20);
 
         when:
         rectangle.draw(graphics)
